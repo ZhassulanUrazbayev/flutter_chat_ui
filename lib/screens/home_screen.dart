@@ -20,10 +20,12 @@ class _HomeScreenState extends State<HomeScreen> {
           color: Colors.white,
           onPressed: () {},
         ),
-        title: Center(
-          child: Text(
-            'Chats',
-            style: TextStyle(fontSize: 28.0, fontWeight: FontWeight.bold),
+        centerTitle: true,
+        title: Text(
+          'Chats',
+          style: TextStyle(
+            fontSize: 28.0,
+            fontWeight: FontWeight.bold,
           ),
         ),
         elevation: 0.0,
